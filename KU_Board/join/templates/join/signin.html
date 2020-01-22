@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="login">
+        {% block login %}
+        <ul>
+            <form action="/join/check/" method="post">
+                {% csrf_token %}
+                <li>아이디 : <input type="text" value="아이디", name="id"></li>
+                <li>비밀번호 : <input type="password" value="비밀번호" name="pw"></li>
+                <input type="submit" name="제출"><br>
+            </form>
+
+            <input type="button" onclick="location.href='/join/signup/'" value="회원가입" formmethod="post">
+        </ul>
+        {% endblock %}
+        <br>
+    </div>
+</body>
+</html>

@@ -17,11 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 from . import views
 
+app_name = 'join'
 urlpatterns = [
-    path('admin/', admin.site.urls),
-
-    path('', views.HomeView.as_view(), name='home'),
-    path('board/', include('board.urls')),
-    path('join/', include('join.urls')),
-    path('chat/', include('chat.urls')),
+    path('',  views.test, name='index'),
+    path('check/', views.check, name='check'),
+    path('signup/', views.signup, name='signup'),
 ]

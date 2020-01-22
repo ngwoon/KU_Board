@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0cdd4d2-b2c6-4f1e-84ef-91faafe520eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/KU_Board/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/KU_Board/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/KU_Board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/KU_Board/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KU_Board/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/join/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/join/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/join/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/join/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/join/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/join/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KU_Board/join/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/KU_Board/join/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +18,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WNFjlYOO8Ox2hFwDI8Uum98x5t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\todor\PycharmProjects\KU_Board\KU_Board\join\templates\join" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,10 +74,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/KU_Board/join/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

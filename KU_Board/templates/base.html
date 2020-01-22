@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'admin/css/base.css' %}" />
+    <title>{% block title %}My Amazing Site{% endblock %}</title>
+</head>
+
+<body>
+    <div id="header">
+        {% block header %}
+        <ul>
+            <li><a href="/">홈 로고</a></li>
+            <li><a href="/admin/">free</a></li>
+            <li><a href="/admin/">recent</a></li>
+            <li><a href="/admin/">hot</a></li>
+        </ul>
+        {% endblock %}
+        <br>
+    </div>
+
+     <div id="sidebar">
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">login</a></li>
+            <li><a href="/admin/">chat</a></li>
+        </ul>
+        {% endblock %}
+        <br>
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div id="footer">
+        {% block footer %}
+        <ul>
+            <li>copyright is always reserved</li>
+        </ul>
+        {% endblock %}
+        <br>
+    </div>
+</body>
+</html>
+
